@@ -4,7 +4,7 @@ This is a simple Python-based **Bank Management System** that allows you to mana
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project includes the following classes:
 
@@ -26,28 +26,22 @@ The project includes the following classes:
 
 ---
 
-🛠️ How It Works
-Each customer and employee has a unique identifier (acc_number or emp_id).
+## How It Works
+- Each customer and employee has a unique identifier (acc_number or emp_id).
+- All authentication is password-based.
+- Loans are assigned unique IDs and can be partially or fully repaid.
+- All objects (customers, employees, loans) are stored in class-level lists in Bank.
 
-All authentication is password-based.
+## Requirements
+- Python 3.x
+- No external libraries required (pure Python)
 
-Loans are assigned unique IDs and can be partially or fully repaid.
+## Notes
+- Data is stored in memory and not persisted between runs.
+- This is a basic simulation intended for educational purposes.
+- Can be extended for database integration, GUI, or API development.
 
-All objects (customers, employees, loans) are stored in class-level lists in Bank.
-
-📦 Requirements
-Python 3.x
-
-No external libraries required (pure Python)
-
-📌 Notes
-Data is stored in memory and not persisted between runs.
-
-This is a basic simulation intended for educational purposes.
-
-Can be extended for database integration, GUI, or API development.
-
-🧑‍💻 Author
-Made by Gourav Ashok Chavan as part of a Python OOP exercise.
+## Author
+- Made by Gourav Ashok Chavan as part of a Python OOP exercise.
 
 
